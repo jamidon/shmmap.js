@@ -1,5 +1,5 @@
 const fs = require('fs');
-const mmap = require('@baliset/mmap-io');
+const mmap = require('mmap-io');
 
 const shm = require('./build/Release/shmmap.node');
 
